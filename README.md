@@ -75,7 +75,7 @@ def partition(A, low, hi) :
     return (border)
 
 # Testing
-list = [50, 54, 10, 100, 102, 2, 1, 5]
+list = [50, 54, 10, 100, 102, 2, 1]
 quick_sort(list)
 for i in range(0, len(list)) :
     print(list[i])
@@ -86,7 +86,6 @@ output
 ```script
 1
 2
-5
 10
 50
 54
